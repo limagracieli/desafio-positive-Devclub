@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+}
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+div {
+    display: inline-block;
+    margin-left: 85px;
+}
+.logo-positive {
+    margin-left: 121px;
+    margin-top: 246px;
+}
+section {
+    display: inline-block;
+}
+h1 {
+    width: 493px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px; 
+    letter-spacing: 0.596px;
+    margin-bottom: 47px;
+    height: 164px;
+}
+p {
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+
+}
+.link-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:810px) {
+    .link-header {
+        display: none;
+    }
+    header {
+        margin: 17px 0px 0 250px;
+    }
+    .button-header {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+
+    }
+    div {
+        display: block;
+        position: static;
+        width: 100vw;
+        height: 50%;
+        margin-left: auto;
+       
+    }
+    section {
+        display: block;
+        position: absolute;
+        top:124px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px; 
+        height: 60px;
+        width:278px;
+        text-align: center;
+        margin-left: 57px;
+    }
+    .logo-positive {
+        margin-top: 450px;
+        margin-right: 45px;
+        margin-left: 39px;
+        width: 80%
+    }
+    p {
+        width: 304px;
+        margin:29px 43px 0 43px;
+        text-align: center;
+    }
+    .link-section {
+        display: block;
+        text-align: center;
+    }
+}
